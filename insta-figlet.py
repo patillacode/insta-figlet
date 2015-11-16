@@ -60,7 +60,7 @@ if __name__ == "__main__":
   for font in font_list:
     print font
     subprocess.call(['figlet', '-f', '{0}'.format(font), keyword])
-    time.sleep(timeout)
+    time.sleep(TIMEOUT)
     print
     print '#'*30
     print '#'*30
